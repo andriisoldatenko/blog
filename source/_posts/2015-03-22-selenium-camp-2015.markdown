@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Selenium Camp 2015"
+title: "SeleniumCamp 2015 Presentation"
 date: 2015-03-22 19:33:18 +0200
 comments: true
 categories: 
 ---
-My first Selenium Camp!
+My slides from <a href="http://seleniumcamp.com/materials/high-performance-selenium-tests/">SeleniumCamp</a> 2015.
 
+{% slideshare 45278504 %}
