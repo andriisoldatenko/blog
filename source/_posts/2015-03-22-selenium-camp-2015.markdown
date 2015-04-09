@@ -8,3 +8,7 @@ categories:
 My slides from <a href="http://seleniumcamp.com/materials/high-performance-selenium-tests/">SeleniumCamp</a> 2015.
 
 {% slideshare 45278504 %}
+
+and also you can find video below
+
+{% youtube FyhCsxH-Xfw %}
