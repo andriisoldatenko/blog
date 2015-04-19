@@ -4,10 +4,10 @@
 
 url: http://asoldatenko.com
 title: Python Geek's Blog
-subtitle: A blogging framework for hackers.
+subtitle: Blog about interesting things.
 author: Andrii Soldatenko
 simple_search: https://www.google.com/search
-description:
+description: Personal Andrii's Soldatenko blog about Programming.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -92,7 +92,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: asoldatenko
 disqus_show_comment_count: false
 
 # Google Analytics
