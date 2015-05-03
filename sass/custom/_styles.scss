@@ -5,18 +5,20 @@ html {
 }
 body {
   line-height: 1.8em;
-  font-size:1.1em;
-  max-width:1320px;
+  font-size:1em;
+  max-width: 850px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   > div {
     background: #fff !important;
-    border-bottom:2px solid #f2f2f2;
+    border-bottom:0px solid #f2f2f2;
     > div {
       border-right:2px solid #f2f2f2;
       background: #fff !important;
     }
   }
   > nav {
-    border-bottom:2px solid #f2f2f2;
+    border-bottom:0px solid #f2f2f2;
     li+li {
       border-left:2px solid #f2f2f2;
     }
@@ -25,8 +27,13 @@ body {
     }
   }
   >header {
-    h1 a {
-    font-weight: bold;
+    background: #fff;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px; 
+    a, a:visited, a:hover {
+              color: rgb(50, 50, 50); /* Changed to almost black */
+              // font-family: $heading-font-family;
     }
   }
 
@@ -35,7 +42,7 @@ body {
     font-size: 90%;
     margin-bottom: 1.5em;
     thead tr {
-      border-bottom: 1px solid $sidebar-border;
+      border-bottom: 0px solid $sidebar-border;
     }
     th {
       font-weight: bold;
@@ -63,6 +70,7 @@ body {
     h1 {
       a { text-decoration: none;
         &:hover { text-decoration:none; } }
+      font-size: 1.1em;
     }
   }
   aside.sidebar {
@@ -139,4 +147,28 @@ body {
     }
   }
   border: 1px solid $pre-border !important;
+}
+
+div.entry-content, article p{
+  font-family: "Merriweather";
+  font-size: 14pt;
+}
+
+footer, footer p{
+  text-align: center;
+  > a { font-style: italic;}
+}
+
+header, header p{
+  text-align: center;
+}
+
+body > div > div { border-right-width: 0px;}
+
+main-navigation {
+  border-right-width: 0px;  
+}
+
+article header {
+  background: #fff;
 }

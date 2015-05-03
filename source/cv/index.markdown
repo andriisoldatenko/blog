@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "contacts"
-date: 2015-03-22 20:09
+title: "Curriculum Vitae"
+date: 2015-05-03 16:20
 comments: true
 sharing: true
 footer: true

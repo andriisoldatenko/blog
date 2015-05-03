@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Crimson Text';
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/assets/fontface/Lato-BlackItalic-webfont.eot');
+    src: url('/assets/fontface/Lato-BlackItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fontface/Lato-BlackItalic-webfont.woff') format('woff'),
+         url('/assets/fontface/Lato-BlackItalic-webfont.ttf') format('truetype'),
+         url('/assets/fontface/Lato-BlackItalic-webfont.svg#LatoBlackItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+#{headings()}{
+  @extend .heading;
+  text-rendering: optimizelegibility;
+  margin-bottom: 1em;
+  font-weight: normal;
+}
