@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "High performance functional tests based on Selenium - SeleniumCamp 2015"
+title: "SeleniumCamp 2015 - High performance functional tests based on Selenium"
 date: 2015-03-22 19:33:18 +0200
 comments: true
 sharing: true
