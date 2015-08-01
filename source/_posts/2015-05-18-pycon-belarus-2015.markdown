@@ -1,0 +1,17 @@
+---
+layout: post
+title: "PyCon Belarus 2015 - High performance functional tests"
+date: 2015-05-18 20:30:15 +0300
+comments: true
+sharing: true
+categories:
+---
+
+##Slides
+<a
+href="https://dev.by/lenta/main/pycon-prezentatsii-dokladov">PyCon Belarus 2015</a>
+{% slideshare 51164658 %}
+
+##Video
+Video from <a href="http://by.pycon.org/english/">PyCon Belarus 2015</a>.
+{% youtube cnlrUjsj3sU %}
